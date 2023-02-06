@@ -1,0 +1,8 @@
+.logo img,.footer-logo img {max-width: 100%;}
+.header-area .main-menu ul li:nth-last-of-type(2) {display: none;}
+
+@media (max-width:767px) {
+    .logo img, .footer-logo img {max-width: 200px;}
+    .header-area .slicknav_btn {top: -28px;}
+    .slicknav_nav li:nth-last-of-type(2) {display: none;}
+}
